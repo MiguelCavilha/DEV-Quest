@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Cloister Black';
+    src: url('./fonts/CloisterBlack.ttf');
+}
+
+p{
+    font-family: 'Cloister Black';
+    font-size: 30px;
+
+}
