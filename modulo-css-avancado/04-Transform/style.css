@@ -1,0 +1,17 @@
+img{
+    width: 200px;
+}
+
+img.scale{
+    transform: scaley(2);
+    transform: scaleX(2);
+}
+
+img.rotate{
+    transform: rotate(45deg);
+}
+
+img.translate{
+    transform: translate(100px, 200px);
+
+}

@@ -1,0 +1,17 @@
+/* seletor::pseudo-elemento{
+    propriedade:valor
+} */
+
+p::first-letter{
+    color: coral;
+}
+
+p::first-line{
+    color:crimson
+}
+
+li::marker{
+    color: red;
+    font-size: 40px;
+}
+

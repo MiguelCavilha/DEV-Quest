@@ -1,0 +1,36 @@
+/* seletor:pseido-classe{
+    propriedade: valor
+} */
+
+p:first-child{
+    color: aquamarine;
+}
+
+p:last-child{
+    color: blueviolet;
+}
+
+p:not(.padrao){
+    color: yellow;
+
+}
+
+p:nth-child(odd){
+    color: red;
+}
+
+/* li:nth-child(2){
+    color :chartreuse
+}
+
+li:nth-child(n+2):nth-child(-n+5){
+    color:coral 
+}*/
+
+li:nth-last-child(1){
+    color: darkmagenta;
+}
+
+p:only-child{
+    color: seagreen;
+}
