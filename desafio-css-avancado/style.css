@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'public sans';
+    src: url('./Public_Sans/PublicSans-VariableFont_wght.ttf');
+}
+
+
+h1{
+    font-family: 'public sans';
+    position: absolute;
+    width: 80px;
+    height: 24px;
+    top: 55px;
+    left: 95px;
+}
+
+img{
+    position: relative;
+    top: 50px;
+    right: 50px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 130px;
+
+}
+
+.menu{
+position: relative;
+padding: 12px;
+right: 100px;
+color: black;
+}
+
+
+
+a{
+  font-family: 'public sans';  
+  text-decoration: none;
+  font-size: 15px;}
+
+  .menu:hover{
+  background-color: #5BC241;
+  color: white;
+
+}
+
+.cadastre-se{
+  position: relative;
+  background-color: #5BC241;
+  color: white;
+  padding: 12px;
+  right: 90px;
+  border-radius: 5px;
+  
+    
+}
+
+@media (max-width:575px){
+    
+    h1{
+        font-family: 'public sans';
+        text-align: center;
+        left: 150px;
+        top: 20px;
+        margin: 0;
+    }
+
+    img{
+
+        position: relative;
+        right: 70px;
+       
+    }
+
+
+    a{
+        font-size: 30px;
+        text-align: center;
+        left: 10px;
+    }
+    
+    
+    .cabecalho{
+      display: grid;
+      padding: 100px;
+      grid-gap: 40px;
+      grid-template-columns: repeat(auto-fit)}
+    
+    .cabecalho{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        left: 150px;
+        padding: 20px;
+        flex-direction: column-reverse;
+    }
+
+    .cadastre-se{
+        font-size: 18px;
+    }
+
+
+    
+
+    }
+      
