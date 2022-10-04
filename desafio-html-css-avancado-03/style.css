@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 128px;
+}
+
+@media(max-width:576px){
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 45px;
+        padding-bottom: 45px;
+        align-items: center;
+}
+
