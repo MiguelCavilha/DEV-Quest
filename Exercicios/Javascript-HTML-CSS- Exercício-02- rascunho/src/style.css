@@ -1,12 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-}
+
 
 body{
+    font-family: "Roboto", sans-serif;
+}
+
+html{
     background-color: #E5E5E5;
 }
 
