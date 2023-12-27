@@ -9,11 +9,15 @@ async function criarBaralho() {
   return await resposta.json();
 }
 
+
+
 async function tirarUmaCarta(deck_id) {
   const url = `https://www.deckofcardsapi.com/api/deck/${deck_id}/draw/?count=1`;
   const resposta = await fetch(url);
   return await resposta.json();
 }
+
+
 
 async function tirarUmaCartaAleatoria() {
   const baralho = await criarBaralho();
